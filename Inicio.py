@@ -4,7 +4,15 @@ from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
 import re
 from nltk.stem import SnowballStemmer
-
+st.markdown("""
+<style>
+.stApp {
+    background: radial-gradient(circle, #0f0f0f, #1b2735);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+</style>
+""", unsafe_allow_html=True)
 st.title("Demo de TF-IDF con Preguntas y Respuestas")
 
 st.write("""
